@@ -1,0 +1,298 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Wonders to Wander | Travel Guide</title>
+    <style>
+        /* CSS STYLES */
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e67e22;
+            --text-light: #ffffff;
+            --bg-light: #f4f4f4;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: #333;
+        }
+
+        /* Hero Section with Background Image */
+        header {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80'); /* REPLACE THIS WITH YOUR BACKGROUND IMAGE */
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-light);
+            text-align: center;
+        }
+
+        header h1 { font-size: 3.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; }
+
+        /* Main Content Grid */
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* Destination Cards */
+        .place-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .place-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .place-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #ddd; /* Fallback color */
+        }
+
+        .place-content {
+            padding: 20px;
+        }
+
+        .place-content h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .place-content p {
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: var(--primary-color);
+            color: white;
+            margin-top: 50px;
+.newsletter {
+    background-color: #fdfdfd;
+    padding: 60px 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.newsletter-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    width: 300px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.newsletter-form input[type="email"]:focus {
+    border-color: var(--accent-color);
+}
+
+.newsletter-form button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #d35400; /* Darker orange on hover */
+}
+            .book-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: var(--accent-color);
+}
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>7 Places to visit in a lifetime</h1>
+        <p>A curated list for the restless soul</p>
+    </header>
+
+    <main class="container">
+        
+        <article class="place-card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Yosemite National Park" class="place-image">
+            <div class="place-content">
+                <h3>1. Yosemite, USA</h3>
+                <p>Experience the towering granite cliffs and ancient giant sequoias of California’s Sierra Nevada mountains.</p>
+                <a  href="https://www.expedia.com/Bora-Bora.d602860.Destination-Travel-Guides" 
+           target="_blank" 
+                    class="book-btn">
+                Book This Adventure
+
+                </a>
+            </div>
+        </article>
+
+        <article class="place-card">
+            <img src="https://images.unsplash.com/photo-1542332213-31f87348057f?auto=format&fit=crop&w=600&q=80" alt="Santorini" class="place-image">
+            <div class="place-content">
+                <h3>2. Santorini, Greece</h3>
+                <p>Famous for its whitewashed buildings and stunning sunsets over the deep blue Aegean Sea.</p>
+                <a  href="https://www.expedia.com/Bora-Bora.d602860.Destination-Travel-Guides" 
+           target="_blank" 
+                    class="book-btn">
+                Book This Adventure
+
+                </a>
+            </div>
+        </article>
+
+        <article class="place-card">
+            <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" alt="Kyoto" class="place-image">
+            <div class="place-content">
+                <h3>3. Kyoto, Japan</h3>
+                <p>A city where centuries-old temples meet beautiful gardens and traditional wooden houses.</p>
+                <a  href="https://www.expedia.com/Bora-Bora.d602860.Destination-Travel-Guides" 
+           target="_blank" 
+                    class="book-btn">
+                Book This Adventure
+
+                </a>
+            </div>
+        </article>
+
+        <article class="place-card">
+            <img src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=600&q=80" alt="Machu Picchu" class="place-image">
+            <div class="place-content">
+                <h3>4. Machu Picchu, Peru</h3>
+                <p>The legendary "Lost City of the Incas," nestled high in the Andes mountains.</p>
+                <a  href="https://www.expedia.com/Bora-Bora.d602860.Destination-Travel-Guides" 
+           target="_blank" 
+                    class="book-btn">
+                Book This Adventure
+
+                </a>
+            </div>
+        </article>
+
+        <article class="place-card">
+            <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=80" alt="Ha Long Bay" class="place-image">
+            <div class="place-content">
+                <h3>5. Ha Long Bay, Vietnam</h3>
+                <p>Thousands of limestone islands topped with rainforests rising from emerald waters.</p>
+                <a  href="https://www.expedia.com/Bora-Bora.d602860.Destination-Travel-Guides" 
+           target="_blank" 
+                    class="book-btn">
+                Book This Adventure
+
+                </a>
+
+            </div>
+        </article>
+
+        <a     
+ <article class="place-card">
+    <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=80alt="Ha Long Bay" class="place-image">
+    <div class="place-content">
+        <h3>7. venice Italy</h3>
+        <p>The ultimate tropical paradise, known for its turquoise lagoons and overwater bungalows.</p>
+        
+        <a href="https://www.expedia.com/Bora-Bora.d602860.Destination-Travel-Guides" 
+           target="_blank" 
+           class="book-btn">
+           Book This Adventure
+        </a>
+    </div>
+</article>
+
+        
+ <article class="place-card">
+    <img src="bora-bora.jpg" alt="Bora Bora" class="place-image">
+    <div class="place-content">
+        <h3>7. Bora Bora, French Polynesia</h3>
+        <p>The ultimate tropical paradise, known for its turquoise lagoons and overwater bungalows.</p>
+        
+        <a href="https://www.expedia.com/Bora-Bora.d602860.Destination-Travel-Guides" 
+           target="_blank" 
+           class="book-btn">
+           Book This Adventure
+        </a>
+    </div>
+</article>
+  
+           
+       
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wanderlust Travel Guide. All rights reserved.</p>
+        <section class="newsletter">
+    <div class="newsletter-content">
+        <h2>Join the Adventure</h2>
+        <p>Sign up for our monthly newsletter to get exclusive travel guides and secret tips delivered straight to your inbox.</p>
+        <form class="newsletter-form" action="#" method="POST">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</section>
+    </footer>
+
+</body>
+</html>
